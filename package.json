@@ -1,0 +1,46 @@
+{
+  "name": "http-error",
+  "version": "0.1.0",
+  "description": "Custom HTTP errors with status codes for Node.js",
+  "main": "build/index.js",
+  "scripts": {
+    "clean": "rimraf build",
+    "build": "npm run clean && tsc",
+    "test": "NODE_ENV=test DEBUG=http-error* mocha --require dotenv/config --timeout 10000 --reporter spec --full-trace --colors --recursive --bail --exit $([ -z \"$npm_config_path\" ] && echo build/tests || echo $npm_config_path)",
+    "lint": "tslint \"src/**/*.ts\" --project tsconfig.json",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sybl/node-http-error.git"
+  },
+  "keywords": [
+    "node",
+    "http",
+    "error"
+  ],
+  "author": "Andrew Wei <andrewscwei@gmail.com>",
+  "license": "UNLICENSED",
+  "files": [
+    "build"
+  ],
+  "bugs": {
+    "url": "https://github.com/sybl/node-http-error/issues"
+  },
+  "homepage": "https://github.com/sybl/node-http-error#readme",
+  "dependencies": {
+    "debug": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/debug": "^0.0.31",
+    "@types/dotenv": "^4.0.3",
+    "@types/mocha": "^5.2.5",
+    "dotenv": "^6.1.0",
+    "mocha": "^5.2.0",
+    "rimraf": "^2.6.2",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.3"
+  },
+  "types": "build/index.d.ts"
+}
