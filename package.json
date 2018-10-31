@@ -1,7 +1,7 @@
 {
-  "name": "http-error",
+  "name": "node-basic-http-error",
   "version": "0.1.0",
-  "description": "Custom HTTP errors with status codes for Node.js",
+  "description": "Basic HTTP errors with status codes for Node.js",
   "main": "build/index.js",
   "scripts": {
     "clean": "rimraf build",
@@ -20,7 +20,7 @@
     "error"
   ],
   "author": "Andrew Wei <andrewscwei@gmail.com>",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "files": [
     "build"
   ],
