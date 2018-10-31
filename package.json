@@ -1,18 +1,18 @@
 {
-  "name": "node-basic-http-error",
+  "name": "basic-http-error",
   "version": "0.1.0",
   "description": "Basic HTTP errors with status codes for Node.js",
   "main": "build/index.js",
   "scripts": {
     "clean": "rimraf build",
     "build": "npm run clean && tsc",
-    "test": "NODE_ENV=test DEBUG=http-error* mocha --require dotenv/config --timeout 10000 --reporter spec --full-trace --colors --recursive --bail --exit $([ -z \"$npm_config_path\" ] && echo build/tests || echo $npm_config_path)",
+    "test": "NODE_ENV=test DEBUG=basic-http-error* mocha --require dotenv/config --timeout 10000 --reporter spec --full-trace --colors --recursive --bail --exit $([ -z \"$npm_config_path\" ] && echo build/tests || echo $npm_config_path)",
     "lint": "tslint \"src/**/*.ts\" --project tsconfig.json",
     "lint:fix": "npm run lint -- --fix"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sybl/node-http-error.git"
+    "url": "git+https://github.com/sybl/node-basic-http-error.git"
   },
   "keywords": [
     "node",
@@ -25,9 +25,9 @@
     "build"
   ],
   "bugs": {
-    "url": "https://github.com/sybl/node-http-error/issues"
+    "url": "https://github.com/sybl/node-basic-http-error/issues"
   },
-  "homepage": "https://github.com/sybl/node-http-error#readme",
+  "homepage": "https://github.com/sybl/node-basic-http-error#readme",
   "dependencies": {
     "debug": "^4.1.0"
   },
