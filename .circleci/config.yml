@@ -34,6 +34,7 @@ jobs:
       - persist_to_workspace:
           root: .
           paths:
+            - .circleci/
             - build/
             - node_modules/
             - package.json
@@ -56,7 +57,7 @@ jobs:
 
 workflows:
   version: 2
-  main:
+  build_test_deploy:
     jobs:
       - build:
           filters:
@@ -73,5 +74,7 @@ workflows:
           requires:
             - test
           filters:
+            branches:
+              ignore: /.*/
             tags:
               only: /^v.*/
