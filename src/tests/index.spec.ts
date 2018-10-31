@@ -3,7 +3,7 @@ import { describe, it } from 'mocha';
 import { HTTPBadGatewayError, HTTPBadRequestError, HTTPBandwidthLimitExceededError, HTTPConflictError, HTTPExpectationFailedError, HTTPFailedDependencyError, HTTPForbiddenError, HTTPGatewayTimeoutError, HTTPGoneError, HTTPHttpVersionNotSupportedError, HTTPImATeapotError, HTTPInsufficientStorageError, HTTPInternalServerError, HTTPLengthRequiredError, HTTPLockedError, HTTPLoopDetectedError, HTTPMethodNotAllowedError, HTTPMisdirectedRequestError, HTTPNetworkAuthenticationRequireError, HTTPNotAcceptableError, HTTPNotExtendedError, HTTPNotFoundError, HTTPNotImplementedError, HTTPPayloadTooLargeError, HTTPPaymentRequiredError, HTTPPreconditionFailedError, HTTPPreconditionRequiredError, HTTPProxyAuthenticationRequiredError, HTTPRangeNotSatisfiableError, HTTPRequestHeaderFieldsTooLargeError, HTTPRequestTimeoutError, HTTPServiceUnavailableError, HTTPTooManyRequestsError, HTTPUnauthorizedError, HTTPUnavailableForLegalReasonsError, HTTPUnorderedCollectionError, HTTPUnprocessableEntityError, HTTPUnsupportedMediaTypeError, HTTPUpgradeRequiredError, HTTPUriTooLongError, HTTPVariantAlsoNegotiatesError } from '..';
 import HTTPStatusCode from '../enums/HTTPStatusCode';
 
-describe('node-basic-http-error', () => {
+describe('node-http-error', () => {
   it('can throw an HTTPBadRequestError error', () => {
     const error = new HTTPBadRequestError();
     assert(error.status === HTTPStatusCode.BAD_REQUEST);
