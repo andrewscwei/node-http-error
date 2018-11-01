@@ -263,4 +263,3 @@ export class HTTPNetworkAuthenticationRequireError extends HTTPError {
 }
 
 export { HTTPStatusCode };
-

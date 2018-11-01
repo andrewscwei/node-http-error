@@ -1,6 +1,6 @@
 {
   "name": "@andrewscwei/http-error",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Basic HTTP errors with status codes for Node.js",
   "main": "build/index.js",
   "scripts": {
