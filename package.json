@@ -1,6 +1,6 @@
 {
   "name": "@andrewscwei/http-error",
-  "version": "0.9.0",
+  "version": "0.10.0",
   "description": "Basic HTTP errors with status codes for Node.js",
   "main": "build/index.js",
   "scripts": {
@@ -30,17 +30,17 @@
   },
   "homepage": "https://github.com/sybl/node-http-error#readme",
   "dependencies": {
-    "@andrewscwei/super-error": "^0.5.0"
+    "@andrewscwei/super-error": "^0.8.0"
   },
   "devDependencies": {
     "@types/dotenv": "^8.2.0",
     "@types/mocha": "^7.0.2",
-    "@types/node": "^13.11.0",
+    "@types/node": "^13.13.5",
     "dotenv": "^8.2.0",
-    "mocha": "^7.1.1",
+    "mocha": "^7.1.2",
     "rimraf": "^3.0.2",
-    "ts-node": "^8.8.2",
-    "tslint": "^6.1.1",
+    "ts-node": "^8.10.1",
+    "tslint": "^6.1.2",
     "typescript": "^3.8.3"
   },
   "types": "build/index.d.ts"
