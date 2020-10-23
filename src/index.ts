@@ -1,4 +1,4 @@
-/* tslint:disable max-classes-per-file */
+/* eslint-disable max-classes-per-file */
 
 import { SuperError } from '@andrewscwei/super-error';
 import http from 'http';
