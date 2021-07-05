@@ -1,6 +1,6 @@
 {
   "name": "@andrewscwei/http-error",
-  "version": "0.12.0",
+  "version": "0.13.0",
   "description": "Basic HTTP errors with status codes for Node.js",
   "main": "build/index.js",
   "scripts": {
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sybl/node-http-error.git"
+    "url": "git+https://github.com/andrewscwei/node-http-error.git"
   },
   "keywords": [
     "node",
@@ -26,25 +26,25 @@
     "build"
   ],
   "bugs": {
-    "url": "https://github.com/sybl/node-http-error/issues"
+    "url": "https://github.com/andrewscwei/node-http-error/issues"
   },
-  "homepage": "https://github.com/sybl/node-http-error#readme",
+  "homepage": "https://github.com/andrewscwei/node-http-error#readme",
   "dependencies": {
-    "@andrewscwei/super-error": "^0.10.0"
+    "@andrewscwei/super-error": "^0.11.2"
   },
   "devDependencies": {
     "@types/dotenv": "^8.2.0",
-    "@types/mocha": "^8.0.3",
-    "@types/node": "^14.14.2",
-    "@typescript-eslint/eslint-plugin": "^4.5.0",
-    "@typescript-eslint/parser": "^4.5.0",
-    "dotenv": "^8.2.0",
-    "eslint": "^7.11.0",
-    "mocha": "^8.2.0",
+    "@types/mocha": "^8.2.2",
+    "@types/node": "^16.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.28.2",
+    "@typescript-eslint/parser": "^4.28.2",
+    "dotenv": "^10.0.0",
+    "eslint": "^7.30.0",
+    "mocha": "^9.0.2",
     "rimraf": "^3.0.2",
-    "ts-node": "^9.0.0",
+    "ts-node": "^10.0.0",
     "tslint": "^6.1.2",
-    "typescript": "^4.0.3"
+    "typescript": "^4.3.5"
   },
   "types": "build/index.d.ts"
 }
