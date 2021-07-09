@@ -1,6 +1,6 @@
 {
   "name": "@andrewscwei/http-error",
-  "version": "0.13.0",
+  "version": "0.14.0",
   "description": "Basic HTTP errors with status codes for Node.js",
   "main": "build/index.js",
   "scripts": {
@@ -30,12 +30,11 @@
   },
   "homepage": "https://github.com/andrewscwei/node-http-error#readme",
   "dependencies": {
-    "@andrewscwei/super-error": "^0.11.2"
+    "@andrewscwei/super-error": "^0.12.0"
   },
   "devDependencies": {
-    "@types/dotenv": "^8.2.0",
-    "@types/mocha": "^8.2.2",
-    "@types/node": "^16.0.0",
+    "@types/mocha": "^8.2.3",
+    "@types/node": "^16.3.0",
     "@typescript-eslint/eslint-plugin": "^4.28.2",
     "@typescript-eslint/parser": "^4.28.2",
     "dotenv": "^10.0.0",
