@@ -1,6 +1,6 @@
 {
   "name": "@andrewscwei/http-error",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Basic HTTP errors with status codes for Node.js",
   "main": "build/index.js",
   "scripts": {
@@ -43,9 +43,9 @@
     "rimraf": "^3.0.2",
     "ts-node": "^10.4.0",
     "tslint": "^6.1.2",
-    "typescript": "^4.5.2"
+    "typescript": "^4.5.3"
   },
   "dependencies": {
-    "@andrewscwei/super-error": "^1.1.0"
+    "@andrewscwei/super-error": "^1.3.0"
   }
 }
