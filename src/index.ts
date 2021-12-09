@@ -1,6 +1,6 @@
 /* eslint-disable max-classes-per-file */
 
-import { SuperError } from '@andrewscwei/super-error'
+import SuperError from '@andrewscwei/super-error'
 import http from 'http'
 import HTTPStatusCode from './enums/HTTPStatusCode'
 
