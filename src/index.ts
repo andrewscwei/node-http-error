@@ -15,6 +15,13 @@ export class HTTPError extends SuperError {
     super(message, code, info, cause)
     this.status = status
   }
+
+  /**
+   * @inheritdoc
+   */
+  toString(): string {
+    return `${this.name}[${this.status}${this.code === undefined ? '' : `/${this.code}`}]: ${this.message}`
+  }
 }
 
 export class HTTPBadRequestError extends HTTPError {
