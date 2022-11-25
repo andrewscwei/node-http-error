@@ -46,6 +46,6 @@
     "typescript": "^4.9.3"
   },
   "dependencies": {
-    "@andrewscwei/super-error": "^2.2.0"
+    "@andrewscwei/super-error": "^2.3.0"
   }
 }
