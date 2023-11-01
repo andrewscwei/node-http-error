@@ -1,8 +1,8 @@
 /* eslint-disable max-classes-per-file */
 
-import SuperError from '@andrewscwei/super-error'
+import { SuperError } from '@andrewscwei/super-error'
 import http from 'http'
-import HTTPStatusCode from './enums/HTTPStatusCode'
+import { HTTPStatusCode } from './enums/HTTPStatusCode.js'
 
 export function getDefaultStatusCodeMessage(statusCode: HTTPStatusCode) {
   return http.STATUS_CODES[String(statusCode)]

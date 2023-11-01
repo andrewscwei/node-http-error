@@ -1,7 +1,7 @@
 /**
  * Server response status enum.
  */
-enum HTTPStatusCode {
+export enum HTTPStatusCode {
   CONTINUE = 100,
   SWITCHING_PROTOCOLS = 101,
   PROCESSING = 102,
@@ -70,5 +70,3 @@ enum HTTPStatusCode {
   NOT_EXTENDED = 510,
   NETWORK_AUTHENTICATION_REQUIRE = 511,
 }
-
-export default HTTPStatusCode
